@@ -1,123 +1,128 @@
 {
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "name": "WallBreaker (Debug)",
-            "request": "launch",
-            "preLaunchTask": "WallBreaker Win64 Debug Build",
-            "program": "D:\\Epic Games\\Projects\\WallBreaker\\Binaries\\Win64\\UE4-Win64-Debug.exe",
-            "args": [],
-            "cwd": "D:\\Epic Games\\UE_4.26",
-            "stopAtEntry": false,
-            "type": "cppvsdbg",
-            "visualizerFile": "D:\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
-            "console": "externalTerminal"
-        },
-        {
-            "name": "WallBreaker (DebugGame)",
-            "request": "launch",
-            "preLaunchTask": "WallBreaker Win64 DebugGame Build",
-            "program": "D:\\Epic Games\\Projects\\WallBreaker\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
-            "args": [],
-            "cwd": "D:\\Epic Games\\UE_4.26",
-            "stopAtEntry": false,
-            "type": "cppvsdbg",
-            "visualizerFile": "D:\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
-            "console": "externalTerminal"
-        },
-        {
-            "name": "WallBreaker (Development)",
-            "request": "launch",
-            "preLaunchTask": "WallBreaker Win64 Development Build",
-            "program": "D:\\Epic Games\\Projects\\WallBreaker\\Binaries\\Win64\\UE4.exe",
-            "args": [],
-            "cwd": "D:\\Epic Games\\UE_4.26",
-            "stopAtEntry": false,
-            "type": "cppvsdbg",
-            "visualizerFile": "D:\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
-            "console": "externalTerminal"
-        },
-        {
-            "name": "WallBreaker (Shipping)",
-            "request": "launch",
-            "preLaunchTask": "WallBreaker Win64 Shipping Build",
-            "program": "D:\\Epic Games\\Projects\\WallBreaker\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
-            "args": [],
-            "cwd": "D:\\Epic Games\\UE_4.26",
-            "stopAtEntry": false,
-            "type": "cppvsdbg",
-            "visualizerFile": "D:\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
-            "console": "externalTerminal"
-        },
-        {
-            "name": "WallBreaker (Test)",
-            "request": "launch",
-            "preLaunchTask": "WallBreaker Win64 Test Build",
-            "program": "D:\\Epic Games\\Projects\\WallBreaker\\Binaries\\Win64\\UE4-Win64-Test.exe",
-            "args": [],
-            "cwd": "D:\\Epic Games\\UE_4.26",
-            "stopAtEntry": false,
-            "type": "cppvsdbg",
-            "visualizerFile": "D:\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
-            "console": "externalTerminal"
-        },
-        {
-            "name": "WallBreakerEditor (Debug)",
-            "request": "launch",
-            "preLaunchTask": "WallBreakerEditor Win64 Debug Build",
-            "program": "D:\\Epic Games\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
-            "args": [
-                "D:\\Epic Games\\Projects\\WallBreaker\\WallBreaker.uproject"
-            ],
-            "cwd": "D:\\Epic Games\\UE_4.26",
-            "stopAtEntry": false,
-            "type": "cppvsdbg",
-            "visualizerFile": "D:\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
-            "console": "externalTerminal"
-        },
-        {
-            "name": "WallBreakerEditor (DebugGame)",
-            "request": "launch",
-            "preLaunchTask": "WallBreakerEditor Win64 DebugGame Build",
-            "program": "D:\\Epic Games\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
-            "args": [
-                "D:\\Epic Games\\Projects\\WallBreaker\\WallBreaker.uproject"
-            ],
-            "cwd": "D:\\Epic Games\\UE_4.26",
-            "stopAtEntry": false,
-            "type": "cppvsdbg",
-            "visualizerFile": "D:\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
-            "console": "externalTerminal"
-        },
-        {
-            "name": "WallBreakerEditor (Development)",
-            "request": "launch",
-            "preLaunchTask": "WallBreakerEditor Win64 Development Build",
-            "program": "D:\\Epic Games\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor.exe",
-            "args": [
-                "D:\\Epic Games\\Projects\\WallBreaker\\WallBreaker.uproject"
-            ],
-            "cwd": "D:\\Epic Games\\UE_4.26",
-            "stopAtEntry": false,
-            "type": "cppvsdbg",
-            "visualizerFile": "D:\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
-            "console": "externalTerminal"
-        },
-        {
-            "name": "Generate Project Files",
-            "type": "clr",
-            "request": "launch",
-            "program": "D:\\Epic Games\\UE_4.26\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
-            "console": "externalTerminal",
-            "args": [
-                "-projectfiles",
-                "-vscode",
-                "-project=D:\\Epic Games\\Projects\\WallBreaker\\WallBreaker.uproject",
-                "-game",
-                "-engine"
-            ],
-            "internalConsoleOptions": "openOnSessionStart",
-            "cwd": "D:\\Epic Games\\UE_4.26"
-        }
-    ]
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "WallBreaker (Debug)",
+			"request": "launch",
+			"preLaunchTask": "WallBreaker Win64 Debug Build",
+			"program": "D:\\Epic Games\\Projects\\WallBreaker\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "D:\\Epic Games\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "WallBreaker (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "WallBreaker Win64 DebugGame Build",
+			"program": "D:\\Epic Games\\Projects\\WallBreaker\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "D:\\Epic Games\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "WallBreaker (Development)",
+			"request": "launch",
+			"preLaunchTask": "WallBreaker Win64 Development Build",
+			"program": "D:\\Epic Games\\Projects\\WallBreaker\\Binaries\\Win64\\UE4.exe",
+			"args": [
+			],
+			"cwd": "D:\\Epic Games\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "WallBreaker (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "WallBreaker Win64 Shipping Build",
+			"program": "D:\\Epic Games\\Projects\\WallBreaker\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "D:\\Epic Games\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "WallBreaker (Test)",
+			"request": "launch",
+			"preLaunchTask": "WallBreaker Win64 Test Build",
+			"program": "D:\\Epic Games\\Projects\\WallBreaker\\Binaries\\Win64\\UE4-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "D:\\Epic Games\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "WallBreakerEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "WallBreakerEditor Win64 Debug Build",
+			"program": "D:\\Epic Games\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"D:\\Epic Games\\Projects\\WallBreaker\\WallBreaker.uproject"
+			],
+			"cwd": "D:\\Epic Games\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "WallBreakerEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "WallBreakerEditor Win64 DebugGame Build",
+			"program": "D:\\Epic Games\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+			"args": [
+				"D:\\Epic Games\\Projects\\WallBreaker\\WallBreaker.uproject"
+			],
+			"cwd": "D:\\Epic Games\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "WallBreakerEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "WallBreakerEditor Win64 Development Build",
+			"program": "D:\\Epic Games\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"D:\\Epic Games\\Projects\\WallBreaker\\WallBreaker.uproject"
+			],
+			"cwd": "D:\\Epic Games\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "D:\\Epic Games\\UE_4.26\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=D:\\Epic Games\\Projects\\WallBreaker\\WallBreaker.uproject",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "D:\\Epic Games\\UE_4.26"
+		}
+	]
 }

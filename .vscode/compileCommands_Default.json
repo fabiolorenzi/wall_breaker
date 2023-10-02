@@ -1,57 +1,67 @@
 [
-    {
-        "file": "D:\\\\Epic Games\\\\Projects\\\\WallBreaker\\\\Source\\\\WallBreaker\\\\Ball.cpp",
-        "command": "\"cl.exe\" @\"D:\\Epic Games\\Projects\\WallBreaker\\.vscode\\compileCommands_Default\\WallBreaker.182.rsp\"",
-        "directory": "D:\\Epic Games\\UE_4.26\\Engine\\Source"
-    },
-    {
-        "file": "D:\\\\Epic Games\\\\Projects\\\\WallBreaker\\\\Source\\\\WallBreaker\\\\Ball.h",
-        "command": "\"cl.exe\" @\"D:\\Epic Games\\Projects\\WallBreaker\\.vscode\\compileCommands_Default\\WallBreaker.182.rsp\"",
-        "directory": "D:\\Epic Games\\UE_4.26\\Engine\\Source"
-    },
-    {
-        "file": "D:\\\\Epic Games\\\\Projects\\\\WallBreaker\\\\Source\\\\WallBreaker\\\\Paddle.cpp",
-        "command": "\"cl.exe\" @\"D:\\Epic Games\\Projects\\WallBreaker\\.vscode\\compileCommands_Default\\WallBreaker.182.rsp\"",
-        "directory": "D:\\Epic Games\\UE_4.26\\Engine\\Source"
-    },
-    {
-        "file": "D:\\\\Epic Games\\\\Projects\\\\WallBreaker\\\\Source\\\\WallBreaker\\\\Paddle.h",
-        "command": "\"cl.exe\" @\"D:\\Epic Games\\Projects\\WallBreaker\\.vscode\\compileCommands_Default\\WallBreaker.182.rsp\"",
-        "directory": "D:\\Epic Games\\UE_4.26\\Engine\\Source"
-    },
-    {
-        "file": "D:\\\\Epic Games\\\\Projects\\\\WallBreaker\\\\Source\\\\WallBreaker\\\\Paddle_Player_Controller.cpp",
-        "command": "\"cl.exe\" @\"D:\\Epic Games\\Projects\\WallBreaker\\.vscode\\compileCommands_Default\\WallBreaker.182.rsp\"",
-        "directory": "D:\\Epic Games\\UE_4.26\\Engine\\Source"
-    },
-    {
-        "file": "D:\\\\Epic Games\\\\Projects\\\\WallBreaker\\\\Source\\\\WallBreaker\\\\Paddle_Player_Controller.h",
-        "command": "\"cl.exe\" @\"D:\\Epic Games\\Projects\\WallBreaker\\.vscode\\compileCommands_Default\\WallBreaker.182.rsp\"",
-        "directory": "D:\\Epic Games\\UE_4.26\\Engine\\Source"
-    },
-    {
-        "file": "D:\\\\Epic Games\\\\Projects\\\\WallBreaker\\\\Source\\\\WallBreaker\\\\WallBreaker.Build.cs",
-        "command": "\"cl.exe\" @\"D:\\Epic Games\\Projects\\WallBreaker\\.vscode\\compileCommands_Default\\WallBreaker.182.rsp\"",
-        "directory": "D:\\Epic Games\\UE_4.26\\Engine\\Source"
-    },
-    {
-        "file": "D:\\\\Epic Games\\\\Projects\\\\WallBreaker\\\\Source\\\\WallBreaker\\\\WallBreaker.cpp",
-        "command": "\"cl.exe\" @\"D:\\Epic Games\\Projects\\WallBreaker\\.vscode\\compileCommands_Default\\WallBreaker.182.rsp\"",
-        "directory": "D:\\Epic Games\\UE_4.26\\Engine\\Source"
-    },
-    {
-        "file": "D:\\\\Epic Games\\\\Projects\\\\WallBreaker\\\\Source\\\\WallBreaker\\\\WallBreaker.h",
-        "command": "\"cl.exe\" @\"D:\\Epic Games\\Projects\\WallBreaker\\.vscode\\compileCommands_Default\\WallBreaker.182.rsp\"",
-        "directory": "D:\\Epic Games\\UE_4.26\\Engine\\Source"
-    },
-    {
-        "file": "D:\\\\Epic Games\\\\Projects\\\\WallBreaker\\\\Source\\\\WallBreaker\\\\WallBreakerGameModeBase.cpp",
-        "command": "\"cl.exe\" @\"D:\\Epic Games\\Projects\\WallBreaker\\.vscode\\compileCommands_Default\\WallBreaker.182.rsp\"",
-        "directory": "D:\\Epic Games\\UE_4.26\\Engine\\Source"
-    },
-    {
-        "file": "D:\\\\Epic Games\\\\Projects\\\\WallBreaker\\\\Source\\\\WallBreaker\\\\WallBreakerGameModeBase.h",
-        "command": "\"cl.exe\" @\"D:\\Epic Games\\Projects\\WallBreaker\\.vscode\\compileCommands_Default\\WallBreaker.182.rsp\"",
-        "directory": "D:\\Epic Games\\UE_4.26\\Engine\\Source"
-    }
+	{
+		"file": "D:\\\\Epic Games\\\\Projects\\\\WallBreaker\\\\Source\\\\WallBreaker\\\\Ball.cpp",
+		"command": "cl.exe @\"D:\\Epic Games\\Projects\\WallBreaker\\.vscode\\compileCommands_Default\\WallBreaker.182.rsp\"",
+		"directory": "D:\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\Epic Games\\\\Projects\\\\WallBreaker\\\\Source\\\\WallBreaker\\\\Ball.h",
+		"command": "cl.exe @\"D:\\Epic Games\\Projects\\WallBreaker\\.vscode\\compileCommands_Default\\WallBreaker.182.rsp\"",
+		"directory": "D:\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\Epic Games\\\\Projects\\\\WallBreaker\\\\Source\\\\WallBreaker\\\\Brick.cpp",
+		"command": "cl.exe @\"D:\\Epic Games\\Projects\\WallBreaker\\.vscode\\compileCommands_Default\\WallBreaker.182.rsp\"",
+		"directory": "D:\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\Epic Games\\\\Projects\\\\WallBreaker\\\\Source\\\\WallBreaker\\\\Brick.h",
+		"command": "cl.exe @\"D:\\Epic Games\\Projects\\WallBreaker\\.vscode\\compileCommands_Default\\WallBreaker.182.rsp\"",
+		"directory": "D:\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\Epic Games\\\\Projects\\\\WallBreaker\\\\Source\\\\WallBreaker\\\\Paddle.cpp",
+		"command": "cl.exe @\"D:\\Epic Games\\Projects\\WallBreaker\\.vscode\\compileCommands_Default\\WallBreaker.182.rsp\"",
+		"directory": "D:\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\Epic Games\\\\Projects\\\\WallBreaker\\\\Source\\\\WallBreaker\\\\Paddle.h",
+		"command": "cl.exe @\"D:\\Epic Games\\Projects\\WallBreaker\\.vscode\\compileCommands_Default\\WallBreaker.182.rsp\"",
+		"directory": "D:\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\Epic Games\\\\Projects\\\\WallBreaker\\\\Source\\\\WallBreaker\\\\Paddle_Player_Controller.cpp",
+		"command": "cl.exe @\"D:\\Epic Games\\Projects\\WallBreaker\\.vscode\\compileCommands_Default\\WallBreaker.182.rsp\"",
+		"directory": "D:\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\Epic Games\\\\Projects\\\\WallBreaker\\\\Source\\\\WallBreaker\\\\Paddle_Player_Controller.h",
+		"command": "cl.exe @\"D:\\Epic Games\\Projects\\WallBreaker\\.vscode\\compileCommands_Default\\WallBreaker.182.rsp\"",
+		"directory": "D:\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\Epic Games\\\\Projects\\\\WallBreaker\\\\Source\\\\WallBreaker\\\\WallBreaker.Build.cs",
+		"command": "cl.exe @\"D:\\Epic Games\\Projects\\WallBreaker\\.vscode\\compileCommands_Default\\WallBreaker.182.rsp\"",
+		"directory": "D:\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\Epic Games\\\\Projects\\\\WallBreaker\\\\Source\\\\WallBreaker\\\\WallBreaker.cpp",
+		"command": "cl.exe @\"D:\\Epic Games\\Projects\\WallBreaker\\.vscode\\compileCommands_Default\\WallBreaker.182.rsp\"",
+		"directory": "D:\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\Epic Games\\\\Projects\\\\WallBreaker\\\\Source\\\\WallBreaker\\\\WallBreaker.h",
+		"command": "cl.exe @\"D:\\Epic Games\\Projects\\WallBreaker\\.vscode\\compileCommands_Default\\WallBreaker.182.rsp\"",
+		"directory": "D:\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\Epic Games\\\\Projects\\\\WallBreaker\\\\Source\\\\WallBreaker\\\\WallBreakerGameModeBase.cpp",
+		"command": "cl.exe @\"D:\\Epic Games\\Projects\\WallBreaker\\.vscode\\compileCommands_Default\\WallBreaker.182.rsp\"",
+		"directory": "D:\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\Epic Games\\\\Projects\\\\WallBreaker\\\\Source\\\\WallBreaker\\\\WallBreakerGameModeBase.h",
+		"command": "cl.exe @\"D:\\Epic Games\\Projects\\WallBreaker\\.vscode\\compileCommands_Default\\WallBreaker.182.rsp\"",
+		"directory": "D:\\Epic Games\\UE_4.26\\Engine\\Source"
+	}
 ]
