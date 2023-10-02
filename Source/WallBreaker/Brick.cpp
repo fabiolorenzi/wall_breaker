@@ -40,10 +40,19 @@ void ABrick::Tick(float DeltaTime)
 
 void ABrick::OnOverlapBegin(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndexType, bool bFromSweep, const FHitResult& SweepResult)
 {
+	if (OtherActor->ActorHasTag("Ball")) {
+		ABall* MyBall = Cast<ABall>(OtherActor);
+		FVector BallVelocity = MyBall->GetVelocity();
+		BallVelocity *= (SpeedModifierOnBounce - 1.0f);
 
+		MyBall->GetBall()->SetPhysicsLinearVelocity(BallVelocity, true);
+
+		FTimerHandle UnusedHandle;
+		GetWorldTimerManager().SetTimer(UnusedHandle, this, &ABrick::DestroyBrick, 0.1f, false);
+	}
 }
 
 void ABrick::DestroyBrick()
 {
-
+	this->Destroy();
 }
