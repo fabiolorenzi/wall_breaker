@@ -25,10 +25,18 @@ void APaddle_Player_Controller::BeginPlay()
 
 void APaddle_Player_Controller::SetupInputComponent()
 {
+    Super::SetupInputComponent();
 
+    EnableInput(this);
+
+    InputComponent->BindAxis("MoveHorizontal", this, &APaddle_Player_Controller::MoveHorizontal);
 }
 
 void APaddle_Player_Controller::MoveHorizontal(float AxisValue)
 {
+    auto MyPawn = Cast<APaddle>(GetPawn());
 
+    if (MyPawn) {
+        MyPawn->MoveHorizontal(AxisValue);
+    }
 }
