@@ -1,5 +1,15 @@
 [
     {
+        "file": "D:\\\\Epic Games\\\\Projects\\\\WallBreaker\\\\Source\\\\WallBreaker\\\\Ball.cpp",
+        "command": "\"cl.exe\" @\"D:\\Epic Games\\Projects\\WallBreaker\\.vscode\\compileCommands_Default\\WallBreaker.182.rsp\"",
+        "directory": "D:\\Epic Games\\UE_4.26\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Epic Games\\\\Projects\\\\WallBreaker\\\\Source\\\\WallBreaker\\\\Ball.h",
+        "command": "\"cl.exe\" @\"D:\\Epic Games\\Projects\\WallBreaker\\.vscode\\compileCommands_Default\\WallBreaker.182.rsp\"",
+        "directory": "D:\\Epic Games\\UE_4.26\\Engine\\Source"
+    },
+    {
         "file": "D:\\\\Epic Games\\\\Projects\\\\WallBreaker\\\\Source\\\\WallBreaker\\\\Paddle.cpp",
         "command": "\"cl.exe\" @\"D:\\Epic Games\\Projects\\WallBreaker\\.vscode\\compileCommands_Default\\WallBreaker.182.rsp\"",
         "directory": "D:\\Epic Games\\UE_4.26\\Engine\\Source"

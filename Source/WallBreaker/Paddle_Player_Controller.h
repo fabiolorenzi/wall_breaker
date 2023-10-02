@@ -6,7 +6,7 @@
 #include "GameFramework/PlayerController.h"
 #include "Paddle_Player_Controller.generated.h"
 
-//class ABall
+class ABall;
 
 UCLASS()
 class WALLBREAKER_API APaddle_Player_Controller : public APlayerController
@@ -18,9 +18,24 @@ class WALLBREAKER_API APaddle_Player_Controller : public APlayerController
 	UFUNCTION()
 		virtual void SetupInputComponent() override;
 
+public:
+
+	void SpawnNewBall();
+
 protected:
 
 	virtual void BeginPlay() override;
 
 	void MoveHorizontal(float AxisValue);
+
+	void Launch();
+
+	UPROPERTY(EditAnywhere)
+		TSubclassOf<ABall> BallObj;
+
+	ABall* MyBall;
+
+	FVector SpawnLocation = FVector(10.0f, 0.0f, 40.0f);
+	FRotator SpawnRotation = FRotator(0.0f, 0.0f, 0.0f);
+	FActorSpawnParameters SpawnInfo;
 };
