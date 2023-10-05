@@ -28,7 +28,7 @@ void ABrick::BeginPlay()
 {
 	Super::BeginPlay();
 	
-	Box_Collision->OnComponentBeginOverlap.AddDynamic(this, &ABrick::OnOverlapBegin);
+	Box_Collision->OnComponentBeginOverlap.AddDynamic(this, &ABrick::MyOnOverlapBegin);
 }
 
 // Called every frame
@@ -38,7 +38,7 @@ void ABrick::Tick(float DeltaTime)
 
 }
 
-void ABrick::OnOverlapBegin(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndexType, bool bFromSweep, const FHitResult& SweepResult)
+void ABrick::MyOnOverlapBegin(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndexType, bool bFromSweep, const FHitResult& SweepResult)
 {
 	if (OtherActor->ActorHasTag("Ball")) {
 		ABall* MyBall = Cast<ABall>(OtherActor);
